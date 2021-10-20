@@ -250,14 +250,27 @@ footer {
     background-color: #23272A;
     width: 100%;
     height: 600px;
+    color: white;
     /* color: #c0c0c0; */
 }
 
 .footer-content {
     height: 100%;
     width: 70%;
-    background-color: coral;
     margin: 0 auto;
+}
+
+
+
+.footer-row {
+    padding-bottom: 2em;
+    border-bottom: 1px solid  rgb(80, 150, 255);
+}
+
+.footer-row::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .footer-row > div {
@@ -267,20 +280,30 @@ footer {
 
 .footer-prime {
     /* width: calc(100% / 5); */
-    height: 500px;
-    background-color: rgb(80, 150, 255);
+    /* height: 500px;
+    background-color: rgb(80, 150, 255); */
 }
 
 .f-col {
     /* width: calc(50% / 4); */
-    height: 500px;
-    background-color: chartreuse;
+    /* height: 500px; */
+    /* background-color: chartreuse; */
     text-align: center;
 }
-.f-col ul li{
-    list-style: none;
+
+.f-col ul {
+    margin-top: 4em;
 }
 
+.f-col ul li{
+    list-style: none;
+    margin-top: 1em;
+}
+
+.f-col ul li a {
+    color: white;
+    text-decoration: none;
+}
 
 .footer-prime h3 {
     margin-top: 1.5em;
@@ -311,6 +334,34 @@ footer {
     margin-left: 1.5em;
 }
 
+
+
 .list-social ul li:first-child {
     margin-left: 0.5em;
+}
+
+.f-col .list-title > li{
+    color: #7289DA;
+}
+
+/* footer-reg */
+
+.footer-reg {
+    
+    position: relative;
+}
+
+.footer-reg img{
+    position: absolute;
+    top: 2em;
+}
+
+.footer-reg a {
+    vertical-align: middle;
+    position: absolute;
+    right: 0;
+    top: 2em;
+    background-color: #8EA1E1;
+    color: white;
+    font-weight: lighter;
 }
