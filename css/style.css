@@ -124,3 +124,80 @@ a.btn.dark:active,
 a.btn.dark:focus {
     color: #265ee8;
 }
+
+/* main section */
+
+.row {
+    /* width: 100%; */
+    /* height: 500px; */
+    /* height: 100vh; */
+    /* background-color: brown; */
+}
+
+/* row */
+section .row div {
+    float: left;
+    height: 100%;
+}
+/* column */
+.column-60{
+    width: 60%;
+    /* background-color: chartreuse; */
+    text-align: center;
+    padding: 10em 0;
+
+}
+
+
+.column-60 img {
+    max-width: 100%;
+    margin-left: 25%;
+    /* padding: 10em 0; */
+
+}
+
+.column-40{
+    width: 40%;
+    /* background-color: darkturquoise; */
+    text-align: center;
+}
+
+.tex-column {
+    margin-top: 2em;
+    text-align: start;
+    padding: 10em 0;
+    padding-right: 50%;
+}
+
+.column-40 h2,
+.column-40-center h2 {
+    font-size: 3em;
+}
+
+.column-40 p,
+.column-40-center p {
+    margin-top: 2em;
+   line-height: 1.6em;
+}
+
+.column-40-center{
+    width: 40%;
+    text-align: left;
+}
+.column-40-center div {
+    padding: 13em 0;
+    padding-left: 50%;
+}
+
+
+
+.column-60-center{
+    width: 60%;
+    text-align: center;
+    padding: 10em 0;
+    /* background-color: chartreuse; */
+}
+
+.column-60-center img{
+    margin-right: 25%;
+}
