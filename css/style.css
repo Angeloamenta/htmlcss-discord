@@ -278,12 +278,14 @@ footer {
     width: calc(100% / 5);
 }
 
-.footer-prime {
-    /* width: calc(100% / 5); */
-    /* height: 500px;
-    background-color: rgb(80, 150, 255); */
+.footer-prime h3 {
+    color: #8EA1E1;
+   
 }
 
+.list-title h4 {
+    color: #8EA1E1;
+}
 .f-col {
     /* width: calc(50% / 4); */
     /* height: 500px; */
@@ -338,10 +340,6 @@ footer {
 
 .list-social ul li:first-child {
     margin-left: 0.5em;
-}
-
-.f-col .list-title > li{
-    color: #7289DA;
 }
 
 /* footer-reg */
