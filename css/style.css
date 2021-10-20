@@ -189,8 +189,6 @@ section .row div {
     padding-left: 50%;
 }
 
-
-
 .column-60-center{
     width: 60%;
     text-align: center;
@@ -200,4 +198,53 @@ section .row div {
 
 .column-60-center img{
     margin-right: 25%;
+}
+
+/* teconology section */
+
+.tecnology {
+    margin-top: 12em;
+}
+
+.tecnology-text {
+    width: 100%;
+    text-align: center;
+}
+
+.tecnology-text h2 {
+    font-size: 3em;
+}
+
+.tecnology-text p{
+    padding: 0 30%;
+    line-height: 1.7em;
+}
+
+.tecno-img {
+    text-align: center;
+}
+
+.tecno-img img {
+    width: 65%;
+}
+
+.adventure {
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    height: 3em;
+    width: 30%;
+    margin: 0 auto;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.adventure-title{
+    padding: 10px;
+}
+
+.adventure a{
+    color: white;
+    background-color: #8EA1E1;
 }
