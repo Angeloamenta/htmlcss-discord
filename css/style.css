@@ -336,7 +336,11 @@ footer {
     margin-left: 1.5em;
 }
 
-
+.f-col a:hover,
+.f-col a:active,
+.f-col a:focus {
+    text-decoration: underline;
+}
 
 .list-social ul li:first-child {
     margin-left: 0.5em;
