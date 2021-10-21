@@ -286,6 +286,8 @@ footer {
     color: #8EA1E1;
    
 }
+.list-social
+
 
 .list-title h4 {
     color: #8EA1E1;
@@ -331,6 +333,12 @@ footer {
 
 .list-social {
     margin-top: 2em;
+}
+
+.list-social li i:hover,
+.list-social li i:active,
+.list-social li i:focus {
+    color: #265ee8;
 }
 
 .list-social ul li {
