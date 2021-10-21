@@ -17,6 +17,9 @@ html {
     display: table;
     clear: both;
 }
+
+
+
 /* /General Section */
 
 
@@ -286,7 +289,6 @@ footer {
     color: #8EA1E1;
    
 }
-.list-social
 
 
 .list-title h4 {
@@ -327,8 +329,13 @@ footer {
     vertical-align: middle;
 }
 
-.ita span{
-    vertical-align: middle;
+.ita .ita-text{
+    vertical-align: bottom;
+}
+
+.check-ita {
+    font-size: 1.5em;
+    
 }
 
 .list-social {
